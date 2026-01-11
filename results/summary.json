@@ -1,0 +1,44 @@
+{
+  "commodities": [
+    "gold",
+    "copper",
+    "aluminum",
+    "cocoa",
+    "coffee",
+    "cotton",
+    "crude_oil",
+    "natural_gas"
+  ],
+  "date_range": "2015-01-02 00:00:00 to 2024-12-31 00:00:00",
+  "n_observations": 2512,
+  "mean_returns": {
+    "gold": 0.00031951693951972953,
+    "copper": 0.000150063163378972,
+    "aluminum": 6.50106143875628e-05,
+    "cocoa": 0.0005645353693230374,
+    "coffee": 0.0002956019968034148,
+    "cotton": 5.0904366407626055e-05,
+    "crude_oil": 0.0003622690234286173,
+    "natural_gas": 6.066471220578894e-05
+  },
+  "volatility": {
+    "gold": 0.009246812909293347,
+    "copper": 0.013923604686194826,
+    "aluminum": 0.012518361712176813,
+    "cocoa": 0.021880325990932606,
+    "coffee": 0.020837253040700023,
+    "cotton": 0.01697959031681149,
+    "crude_oil": 0.029204582827522235,
+    "natural_gas": 0.039134930667871576
+  },
+  "portfolio_volatility": 0.15740099845311373,
+  "portfolio_var": -0.015859300081523073,
+  "portfolio_cvar": -0.0222732988384957,
+  "ml_comparison": {
+    "n_commodities": 8,
+    "temporal_validation": {
+      "train_period": "2015-01-01 to 2020-12-31",
+      "test_period": "2021-01-01 to 2024-12-31"
+    }
+  }
+}

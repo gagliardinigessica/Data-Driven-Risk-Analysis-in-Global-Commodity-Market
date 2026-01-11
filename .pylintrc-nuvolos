@@ -1,0 +1,15 @@
+# Pylint configuration for Nuvolos environment
+# This file suppresses warnings about missing packages in Nuvolos
+
+[MESSAGES CONTROL]
+# Suppress import-error warnings (packages not installed in Nuvolos linter)
+disable=
+    import-error,
+    # Keep other warnings enabled for code quality
+
+[FORMAT]
+max-line-length=100
+
+[BASIC]
+good-names=i,j,k,ex,Run,_,e,f
+

@@ -1,0 +1,22 @@
+name: commodity-volatility-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - pip
+  - pip:
+    - arch
+    - yfinance
+    - plotly
+    - jupyter
+    - openpyxl
+    - reportlab
+    - xgboost
+

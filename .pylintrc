@@ -1,0 +1,22 @@
+# Pylint configuration file for the commodity volatility project
+
+[MESSAGES CONTROL]
+# Disable import-error warnings for external packages
+# (These are environment-specific, not code errors)
+disable=
+    import-error,
+    # Keep broad-exception-caught disabled as we use it for robustness
+    # Keep wrong-import-position disabled as we need sys.path.insert first
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=100
+
+[BASIC]
+# Good variable names
+good-names=i,j,k,ex,Run,_,e,f
+
+[IMPORTS]
+# Allow importing from src after sys.path modification
+allow-wildcard-with-all=no
+
